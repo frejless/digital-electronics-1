@@ -38,8 +38,11 @@ end architecture dataflow;
    ![First distributive law](./images/distributive_1.PNG)
 
    Second distributive law
-   ![First distributive law](./images/distributive_2.PNG)
+   ![Second distributive law](./images/distributive_2.PNG)
 
 2. Link to your public EDA Playground example:
-
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   
+   [De Morgan's laws](https://www.edaplayground.com/x/Q_GW)
+   [First distributive law](https://www.edaplayground.com/x/iMjd)
+   [Second distributive law](https://www.edaplayground.com/x/NynB)
+   
