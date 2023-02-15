@@ -33,8 +33,12 @@ end architecture dataflow;
 ### Distributive laws
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+   
+   First distributive law
+   ![First distributive law](./images/distributive_1.PNG)
 
-   ![your figure]()
+   Second distributive law
+   ![First distributive law](./images/distributive_2.PNG)
 
 2. Link to your public EDA Playground example:
 
