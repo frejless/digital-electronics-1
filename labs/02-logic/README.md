@@ -37,10 +37,10 @@
                 (s_B_equals_A  = '1') and
                 (s_B_less_A    = '0'))
         -- If false, then report an error
-        report "Input combination b=3 and a=3 FAILED" severity error;
+        report "Input combination b=0011 and a=0011 FAILED" severity error;
 
         -- Report a note at the end of stimulus process
-        report "Stimulus process finished";
+        report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
 ```
