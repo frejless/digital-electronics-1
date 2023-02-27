@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 02/23/2023 12:15:24 PM
+-- Create Date: 02/23/2023 12:15:25 PM
 -- Design Name: 
 -- Module Name: mux_3bit_4to1 - Behavioral
 -- Project Name: 
