@@ -48,6 +48,4 @@ with sel select
            b_i when "01",
            c_i when "10",
            d_i when others;
-
-
 end Behavioral;
