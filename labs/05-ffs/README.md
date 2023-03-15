@@ -30,8 +30,11 @@ begin
             end if; 
         end if;
     end process p_jk_ff_rst;
-q     <= sig_q;
-q_bar <= not sig_q;
+    
+    -- Output ports are permanently connected to local signal
+    q     <= sig_q;
+    q_bar <= not sig_q;
+    
 end architecture Behavioral;
 ```
 
