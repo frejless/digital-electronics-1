@@ -14,8 +14,10 @@
 architecture Behavioral of jk_ff_rst is
 signal sig_q : std_logic;
 begin
+
     p_jk_ff_rst : process (clk)
     begin
+    
         if rising_edge(clk) then
             if (rst = '1') then
                 sig_q <= '0';
