@@ -21,18 +21,17 @@ begin
                 sig_q <= '0';
             elsif (j = '0') and (k = '0') then
                   sig_q <= sig_q;  
-            elsif (j = '0') and (k = '1') then
-                  sig_q <= '0';
             elsif (j = '1') and (k = '0') then
-                  sig_q <= '1';      
+                  sig_q <= '1';
+            elsif (j = '0') and (k = '1') then
+                  sig_q <= '0';      
             else
                 sig_q <=  not sig_q;
             end if; 
         end if;
     end process p_jk_ff_rst;
-
-    q     <= sig_q;
-    q_bar <= not sig_q;
+q     <= sig_q;
+q_bar <= not sig_q;
 end architecture Behavioral;
 ```
 
